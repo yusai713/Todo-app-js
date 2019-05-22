@@ -43,6 +43,9 @@ while (input !== commands[3]) {
     else if (input === commands[3]) {
         console.log('終了します');
     }
+    else {
+        console.log('「' + commands + '以外入力できません」');
+    }
 }
 
 // ここでWhileループを抜けた後もタスク一覧を表示する(最終的なタスク一覧を確認するため)
